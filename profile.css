@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'FiraGO';
+    src: url(fonts/FiraGO-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins-Regular.ttf);
+}
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+header {
+    padding: 10px;
+    width: 100%;
+}
+.logo-content {
+    display: flex;
+}
+.logo-title {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.logo-title h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+}
+li {
+    padding: 10px;
+}
+.sanadze-content {
+    width: 100%;
+    background-image: url(images/sanadze-content-picture.svg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    display: flex;
+    padding-top: 166px;
+}
+.sanadze-picture-content {
+    display: flex;
+    margin-left: 20px;
+}
+.sanadze-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dato-ratings {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dato-ratings span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(80, 80, 80, 0.5);
+}
+.dato-stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.dato-stars span {
+    padding: 3px;
+}
+.dato-sanadze-title-content {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    padding-top:4%;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+
+}
+.dato-sanadze-title {
+    width: 100%;
+}
+.dato-sanadze-title h2 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+.dato-sanadze-job {
+    width: 100%;
+    margin-top: 15px;
+}
+.dato-sanadze-job span {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(80, 80, 80, 0.5);
+}
+.dato-sanadze-tbilisi-georgia {
+    width: 100%;
+    margin-top: 15px;
+}
+.dato-sanadze-tbilisi-georgia span {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(80, 80, 80, 0.5);
+}
+.dato-sanadze-tab span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #505050;
+    background: #D9D9D9;
+    border-radius: 13px;
+}
+.sanadze-content {
+    display: flex;
+    justify-content: start;
+}
+.content-table {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+table {
+    width: 100%;
+    border-collapse:collapse;
+}
+tbody {
+    width: 100%;
+}
+th {
+    
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background: #087DBF;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+  }
+tr td {
+    text-align: center;
+    background: #EFEFEF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.table-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.table-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.middle-about-me-section {
+    margin-top: 40px;
+    width: 100%;
+    background: #EFEFEF;
+    border-radius: 0px 0px 45px 45px;
+}
+.middle-about-me-section-title h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.middle-about-me-section-text {
+    margin-top: 10px;
+}
+.middle-about-me-section-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+    color: #000000;
+}
+.see-my-projects-wrapper {
+    width: 100%;
+}
+.see-my-projects {
+    width: 100%;
+    margin-top:155px;
+}
+.see-my-projects h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: rgb(0, 0, 0);
+}
+.content-link {
+    width: 100%;
+    margin-top: 15px;
+}
+.content-link a {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    text-decoration-line: underline;
+    color: rgb(0, 0, 0);
+}
+.my-portfolio-content {
+    margin-top: 50px;
+    width: 100%;
+    background: #EFEFEF;
+    padding: 2%;
+}
+.blocks {
+    margin-top: 30px;
+}
+.blocks img{
+   max-width: 100%;
+}
+.blocks span {
+    margin-top: 20px;
+    display: block;
+    font-family: FiraGO;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color: rgb(0, 0, 0);
+}
+.my-portfolio-content h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: rgb(0, 0, 0);
+}
+.blocks-wrapper {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media(max-width:1024px) {
+    .container {
+        padding: 5%;
+    }
+    .sanadze-content {
+        border-top-right-radius: 66px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 500px;
+        padding: 5px;
+    } 
+    .table-container {
+        padding: 5%;
+    }   
+}
