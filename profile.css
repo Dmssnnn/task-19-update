@@ -65,7 +65,7 @@ li {
 }
 .sanadze-picture-content {
     display: flex;
-    margin-left: 20px;
+    
 }
 .sanadze-picture {
     display: flex;
@@ -110,7 +110,6 @@ li {
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 100%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -120,10 +119,8 @@ li {
 }
 .dato-sanadze-job {
     width: 100%;
-    margin-top: 15px;
 }
 .dato-sanadze-job span {
-    width: 100%;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -314,27 +311,58 @@ tr td {
 }
 
 @media(max-width:1024px) {
-    .container {
-        padding: 5%;
+   .sanadze-picture-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+   }
+   .container {
+    padding: 5%;
+   }
+   .sanadze-content {
+    border-top-right-radius: 66px;
+   }
+   .dato-sanadze-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .dato-sanadze-job {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   tbody {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+@media(max-width:375px) {
+    .dato-sanadze-job span {
+        font-size: 20px;
     }
-    .sanadze-content {
-        border-top-right-radius: 66px;
+    .logo-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .header-wrapper {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        height: 500px;
-        padding: 5px;
-    } 
-    .content-table {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .see-my-projects {
         width: 100%;
-    }
-    .sanadze-picture-content {
-        display: block;
-    }
-    table {
-        overflow-x: scroll;
-    }
-    .dato-sanadze-title-content {
-        flex-direction: row;
+        /* margin-top: 155px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
