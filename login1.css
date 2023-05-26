@@ -5,7 +5,6 @@
 }
 header {
     width: 100%;
-    background-color: blue;
 }
 section {
     height:calc(100vh - 23px);
@@ -144,6 +143,7 @@ footer div span {
         display: none;
     }
     .icon-content {
+        display: flex;
         justify-content: center;
     }
     .content-main-title h2 {
@@ -165,5 +165,22 @@ footer div span {
     }
     .below-right-content {
         display: none;
+    }
+    .nav-content {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        padding-right: 0;
+    }
+}
+
+@media(max-width:396px) {
+    ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-container {
+        display: block;
     }
 }
