@@ -94,9 +94,7 @@ li a {
     line-height: 48px;
     color: #000000;
 }
-.below-text {
-    width:60%;
-}
+
 .below-text span {
     font-family: 'Poppins';
     font-style: normal;
@@ -139,15 +137,22 @@ footer div span {
 }
 
 @media(max-width:1024px) {
-    h1 {
-        display: none;
-    }
+
     .icon-content {
         display: flex;
         justify-content: center;
     }
     .content-main-title h2 {
         font-size: 30px;
+    }
+    .content-container {
+        display: block;
+    }
+    .content-main-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
     .header-wrapper {
         display: block;
