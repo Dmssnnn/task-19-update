@@ -96,13 +96,11 @@ li {
     padding: 3px;
 }
 .dato-sanadze-title-content {
-    margin-top: 20px;
-    margin-left: 20px;
     display: flex;
     padding-top:4%;
     flex-direction: column;
     justify-content: center;
-    align-items:start;
+    align-items:center;
 
 }
 .dato-sanadze-title {
@@ -335,5 +333,8 @@ tr td {
     }
     table {
         overflow-x: scroll;
+    }
+    .dato-sanadze-title-content {
+        flex-direction: row;
     }
 }
