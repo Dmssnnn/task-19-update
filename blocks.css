@@ -227,7 +227,34 @@ color: #000000;
     align-items: center;
 }
 
-@media(max-width:1024px) {
+@media(max-width:375px) {
+    .header-wrapper {
+        display: block;
+    }
+    .logo-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .blocks-wrapper{
+        justify-content: center;
+        padding: 0 100px;
+    }
+    .search-content input {
+        border-radius: 66px;
+    }
+    .search-content {
+        border-radius: 66px;
+    }
+    .input-container {
+        padding: 5%;
+    }
     .talent-content {
         display: none;
     }
@@ -237,13 +264,4 @@ color: #000000;
     .search-icon-content {
         display: none;
     }
-    .blocks-wrapper {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .input-container {
-        padding: 5%;
-    }
 }
-
