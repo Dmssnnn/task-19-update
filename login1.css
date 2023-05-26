@@ -5,8 +5,11 @@
 }
 header {
     width: 100%;
+    background-color: blue;
 }
-
+section {
+    height:calc(100vh - 23px);
+}
 .header-wrapper {
     display: flex;
     justify-content:space-between ;
@@ -115,7 +118,8 @@ li a {
 footer {
     width: 100%;
     background: #000000;
-    padding: 20px;
+    padding: 3%;
+    
 }
 .footer-wrapper {
     display: flex;
@@ -139,12 +143,14 @@ footer div span {
     h1 {
         display: none;
     }
-    .content-container {
-        display: flex;
-        flex-direction: column;
+    .icon-content {
+        justify-content: center;
     }
     .content-main-title h2 {
         font-size: 30px;
+    }
+    .header-wrapper {
+        display: block;
     }
     .main-title {
         width: 100%;
@@ -154,6 +160,10 @@ footer div span {
     }
     .right-content {
         width: 100%;
+        display: flex;
         margin-top: 20px;
+    }
+    .below-right-content {
+        display: none;
     }
 }

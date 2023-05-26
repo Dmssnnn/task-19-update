@@ -224,6 +224,7 @@ tr td {
     margin-top: 40px;
     width: 100%;
     background: #EFEFEF;
+    padding: 2%;
     border-radius: 0px 0px 45px 45px;
 }
 .middle-about-me-section-title h2{
@@ -326,7 +327,13 @@ tr td {
         height: 500px;
         padding: 5px;
     } 
-    .table-container {
-        padding: 5%;
-    }   
+    .content-table {
+        width: 100%;
+    }
+    .sanadze-picture-content {
+        display: block;
+    }
+    table {
+        overflow-x: scroll;
+    }
 }
