@@ -112,13 +112,7 @@ li {
     align-items:start;
 
 }
-.dato-sanadze-title {
-    width: 100%;
-}
 .dato-sanadze-title h2 {
-    display: flex;
-    justify-content: start;
-    align-items: center;
     width: 100%;
     font-family: 'Inter';
     font-style: normal;
@@ -128,14 +122,10 @@ li {
     color: #000000;
 }
 .dato-sanadze-job {
-    width: 100%;
     margin-top: 15px;
 }
 .dato-sanadze-job span {
     width: 100%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -144,13 +134,9 @@ li {
     color: rgba(80, 80, 80, 0.5);
 }
 .dato-sanadze-tbilisi-georgia {
-    width: 100%;
     margin-top: 15px;
 }
 .dato-sanadze-tbilisi-georgia span {
-    display: flex;
-    justify-content: start;
-    align-items: center;
     width: 100%;
     font-family: 'Inter';
     font-style: normal;
@@ -247,20 +233,30 @@ li {
     color: rgba(80, 80, 80, 0.5);    
 }
 @media(max-width:1024px) {
-    .container {
-        padding: 7%;
-    }
-    .sanadze-picture-content {
-        flex-direction: column;
-    }
-    .dato-sanadze-title-content {
-        margin-top: 50px;
-        align-items:center;
-    }
-    .logo-title {
-        display: none;
-    }
     .portfolio-blocks {
         display: block;
+    }
+}
+
+@media(max-width:560px) {
+    .sanadze-picture-content {
+        display: block;
+        margin-left: 1px;
+    }
+    .dato-sanadze-title-content {
+        margin-left: 1px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dato-sanadze-title {
+        display: flex;
+        justify-content: center;
+    }
+    .dato-sanadze-tab {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
     }
 }
