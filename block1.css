@@ -259,4 +259,17 @@ li {
         justify-content: center;
         margin-top: 20px;
     }
+    .header-wrapper {
+        display: block;
+    }
+    .logo-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
